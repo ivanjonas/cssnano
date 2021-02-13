@@ -9,19 +9,18 @@
     "deploy": "docusaurus deploy"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.48",
-    "@docusaurus/preset-classic": "^2.0.0-alpha.48",
-    "@monaco-editor/react": "^3.3.0",
+    "@docusaurus/core": "^2.0.0-alpha.71",
+    "@docusaurus/preset-classic": "^2.0.0-alpha.71",
+    "@monaco-editor/react": "^4.0.10",
     "classnames": "^2.2.6",
     "cssnano-preset-advanced": "^4.0.7",
     "cssnano-preset-default": "^4.0.7",
     "cssnano-preset-lite": "^1.0.0",
-    "postcss": "^7.0.16",
-    "prettier": "^2.0.4",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4",
-    "react-icons": "^3.9.0",
-    "react-spinners-kit": "^1.9.1"
+    "postcss": "^8.2.6",
+    "prettier": "^2.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.2.0"
   },
   "browserslist": {
     "production": [

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { ControlledEditor as Editor } from '@monaco-editor/react';
+import Editor  from '@monaco-editor/react';
 import { RingSpinner as Loader } from 'react-spinners-kit';
 
 class ConfigEditor extends Component {
@@ -14,7 +14,6 @@ class ConfigEditor extends Component {
           loading={<Loader />}
           value={this.props.config}
           onChange={this.props.handleOnChange}
-          editorDidMount={this.handleEditorDidMount}
           options={{ lineNumbers: 'on' }}
         />
       </div>
