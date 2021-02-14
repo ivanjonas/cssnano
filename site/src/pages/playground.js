@@ -4,7 +4,7 @@ import prettier from 'prettier/standalone';
 import cssParser from 'prettier/parser-postcss';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import className from 'classnames';
-import { RingSpinner as Loader } from 'react-spinners-kit';
+import { RingSpinner as Loader } from '../components/editor/RingSpinner.js';
 import MainEditor from '../components/editor/main';
 import OutputEditor from '../components/editor/output';
 import unicode from '../helper/unicode';

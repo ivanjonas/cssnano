@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import Editor  from '@monaco-editor/react';
-import { RingSpinner as Loader } from 'react-spinners-kit';
+import { RingSpinner as Loader } from './RingSpinner.js';
 
 class ConfigEditor extends Component {
   render() {
